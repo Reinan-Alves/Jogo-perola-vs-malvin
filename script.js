@@ -4,11 +4,10 @@ let position = 0;
 let isJumping = false;
 let score = 0;
 let level = 25;
+dino.addEventListener("click", handlekeyup);
 
-function handlekeyup(event) {
-  if (event.keyCode === 32) {
-    if (!isJumping) jump();
-  }
+function handlekeyup() {
+  if (!isJumping) jump();
 }
 
 function jump() {
