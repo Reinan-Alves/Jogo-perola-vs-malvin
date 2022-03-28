@@ -6,6 +6,12 @@ let score = 0;
 let level = 25;
 dino.addEventListener("click", handlekeyup);
 
+//musica
+
+let music = document.getElementById("music");
+music.play();
+let audioChoro = document.getElementById("choro");
+let choro2 = document.getElementById("choro2");
 function handlekeyup() {
   if (!isJumping) jump();
 }
@@ -13,6 +19,7 @@ function handlekeyup() {
 function jump() {
   // começou a pular
   isJumping = true;
+  audioChoro.play();
 
   let upInterval = setInterval(() => {
     if (position >= 150) {
@@ -50,8 +57,11 @@ function createCactus() {
       clearInterval(leftInterval);
       background.removeChild(cactus);
       score += 10;
+
       level -= 1;
     } else if (cactusPosition > 0 && cactusPosition < 60 && position < 60) {
+      music.pause();
+      choro2.play();
       clearInterval(leftInterval);
       document.body.innerHTML = `<h1 class="game-over">Fim de jogo!!<br>Pontuação: ${score}</h1>`;
     } else {

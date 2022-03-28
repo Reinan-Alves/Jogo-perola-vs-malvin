@@ -6,10 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jogo-perola-vs-malvin</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
   </head>
   <body>
-    <div class="background"></div>
-    <div class="dino"></div>
+    <div class="container">
+      <audio
+        id="music"
+        src="Daft-Punk.mp3"
+        controls
+        autoplay
+        loop="true"
+      ></audio>
+      <audio id="choro" src="latindo.wav"></audio>
+      <audio id="choro2" src="chorando.wav" loop="false"></audio>
+      <div class="background"></div>
+      <div class="dino"></div>
+    </div>
+
     <script src="script.js" charset="UTF-8" defer></script>
   </body>
 </html>
