@@ -61,7 +61,6 @@ function createCactus() {
       level -= 1;
     } else if (cactusPosition > 0 && cactusPosition < 60 && position < 60) {
       music.pause();
-      choro2.play();
       clearInterval(leftInterval);
       document.body.innerHTML = `<h1 class="game-over">Fim de jogo!!<br>Pontuação: ${score}</h1>`;
     } else {
