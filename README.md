@@ -13,4 +13,4 @@ nesta versão recriada o jogo ficou propositalmente  tosco e com opção de clic
 ... Mais Alterações poderão feitas.<br>
 
 voce pode jogar a versão do game no link abaixo</br>
-<link>jogo-perola-vs-malvin.netlify.app</link>
+<a href="jogo-perola-vs-malvin.netlify.app">jogo-perola-vs-malvin.netlify.app</a>
