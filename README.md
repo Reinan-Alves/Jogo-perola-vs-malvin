@@ -10,4 +10,7 @@ exibição de Score ao final;</br>
 O jogo do dinossauro é um game simples com o objetivo de fazer o dinossauro pular os cactus pressionando a tecla espaço;</br>
 nesta versão recriada o jogo ficou propositalmente  tosco e com opção de clicar em cima da cachorrinha perola para ela pular;</br>
 </br>
-... Mais Alterações poderão feitas.
+... Mais Alterações poderão feitas.<br>
+
+voce pode jogar a versão do game no link abaixo</br
+<a>jogo-perola-vs-malvin.netlify.app</a>
